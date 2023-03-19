@@ -15,7 +15,7 @@ conntrack-tools                                   1.4.7-r0                      
 curl                                              7.88.1-r0                                                   apk        
 fstrm                                             0.6.1-r1                                                    apk        
 github.com/Nvveen/Gotty                           v0.0.0-20120604004816-cd527374f1e5                          go-module  
-github.com/andybalholm/go-bit                     v0.0.0-20150501193155-34813fe0e46a                          go-module  
+github.com/andybalholm/go-bit                     v1.0.1                                                      go-module  
 github.com/aws/aws-sdk-go                         v1.13.22                                                    go-module  
 github.com/beorn7/perks                           v1.0.1                                                      go-module  
 github.com/boltdb/bolt                            v1.3.1                                                      go-module  
@@ -63,7 +63,7 @@ github.com/weaveworks/common                      v0.0.0-20180321110636-ebab3a78
 github.com/weaveworks/go-checkpoint               v0.0.0-20170503165305-ebbb8b0518ab                          go-module  
 github.com/weaveworks/go-odp                      v0.0.0-20181017121109-6b0aa22550d9                          go-module  
 github.com/weaveworks/mesh                        v0.0.0-20191105120815-58dbcc3e8e63                          go-module  
-github.com/weaveworks/weave                       v0.0.0-20230319050937-25421fad74ac                          go-module  
+github.com/weaveworks/weave                       v0.0.0-20230319071548-48aee01a0392                          go-module  
 golang.org/x/crypto                               v0.0.0-20200220183623-bac4c82f6975                          go-module  
 golang.org/x/net                                  v0.0.0-20200520004742-59133d7f0dd7                          go-module  
 golang.org/x/oauth2                               v0.0.0-20190604053449-0f29369cfe45                          go-module  
