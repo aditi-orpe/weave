@@ -16,7 +16,7 @@ curl                                              7.88.1-r0                     
 fstrm                                             0.6.1-r1                                                    apk        
 github.com/Nvveen/Gotty                           v0.0.0-20120604004816-cd527374f1e5                          go-module  
 github.com/andybalholm/go-bit                     v1.0.1                                                      go-module  
-github.com/aws/aws-sdk-go                         v1.13.22                                                    go-module  
+github.com/aws/aws-sdk-go                         v1.34.0                                                     go-module  
 github.com/beorn7/perks                           v1.0.1                                                      go-module  
 github.com/boltdb/bolt                            v1.3.1                                                      go-module  
 github.com/cespare/xxhash/v2                      v2.1.1                                                      go-module  
@@ -30,7 +30,6 @@ github.com/docker/go-connections                  v0.3.0                        
 github.com/docker/go-units                        v0.3.2                                                      go-module  
 github.com/docker/libnetwork                      v0.8.0-dev.2.0.20180212220201-119badbd737b                  go-module  
 github.com/fsouza/go-dockerclient                 v1.2.0                                                      go-module  
-github.com/go-ini/ini                             v1.33.0                                                     go-module  
 github.com/gogo/protobuf                          v1.3.1                                                      go-module  
 github.com/golang/protobuf                        v1.4.2                                                      go-module  
 github.com/google/go-cmp                          v0.5.1                                                      go-module  
@@ -41,7 +40,7 @@ github.com/gorilla/mux                            v1.6.1                        
 github.com/hashicorp/go-cleanhttp                 v0.0.0-20171218145408-d5fe4b57a186                          go-module  
 github.com/hashicorp/golang-lru                   v0.5.1                                                      go-module  
 github.com/j-keck/arping                          v0.0.0-20160618110441-2cf9dc699c56                          go-module  
-github.com/jmespath/go-jmespath                   v0.0.0-20160202185014-0b12d6b521d8                          go-module  
+github.com/jmespath/go-jmespath                   v0.3.0                                                      go-module  
 github.com/json-iterator/go                       v1.1.10                                                     go-module  
 github.com/matttproud/golang_protobuf_extensions  v1.0.1                                                      go-module  
 github.com/miekg/dns                              v1.0.4                                                      go-module  
@@ -63,7 +62,7 @@ github.com/weaveworks/common                      v0.0.0-20180321110636-ebab3a78
 github.com/weaveworks/go-checkpoint               v0.0.0-20170503165305-ebbb8b0518ab                          go-module  
 github.com/weaveworks/go-odp                      v0.0.0-20181017121109-6b0aa22550d9                          go-module  
 github.com/weaveworks/mesh                        v0.0.0-20191105120815-58dbcc3e8e63                          go-module  
-github.com/weaveworks/weave                       v0.0.0-20230319071548-48aee01a0392                          go-module  
+github.com/weaveworks/weave                       v0.0.0-20230319093414-93d915db2392                          go-module  
 golang.org/x/crypto                               v0.0.0-20200220183623-bac4c82f6975                          go-module  
 golang.org/x/net                                  v0.0.0-20200520004742-59133d7f0dd7                          go-module  
 golang.org/x/oauth2                               v0.0.0-20190604053449-0f29369cfe45                          go-module  
