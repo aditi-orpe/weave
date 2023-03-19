@@ -1,18 +1,16 @@
 [
     {
-        "Id": "sha256:62fea85d605224a5222af10d8bf06670304985271610a7844fa5f17d92de69b5",
+        "Id": "sha256:2f02d55636e4ed5295c07ec909087484a8185b2a8155d32cc37681082200db06",
         "RepoTags": [
-            "weaveworks/weave-kube:latest"
+            "rajchaudhuri/weave-kube:latest"
         ],
-        "RepoDigests": [
-            "weaveworks/weave-kube@sha256:35827a9c549c095f0e9d1cf8b35d8f27ae2c76e31bc6f7f3c0bc95911d5accea"
-        ],
+        "RepoDigests": [],
         "Parent": "",
-        "Comment": "",
-        "Created": "2021-02-10T10:44:07.998012449Z",
-        "Container": "1b1ff84f4c4c5d8049c380d295b469976ee16440221f8cc210c9ad39656f23bb",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-03-19T10:52:33.651423853+05:30",
+        "Container": "",
         "ContainerConfig": {
-            "Hostname": "1b1ff84f4c4c",
+            "Hostname": "",
             "Domainname": "",
             "User": "",
             "AttachStdin": false,
@@ -21,42 +19,16 @@
             "Tty": false,
             "OpenStdin": false,
             "StdinOnce": false,
-            "Env": [
-                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
-            ],
-            "Cmd": [
-                "/bin/sh",
-                "-c",
-                "#(nop) ",
-                "LABEL org.opencontainers.image.revision=34de0b10a69c2fa11f2314bfe0e449f739a96cd8"
-            ],
-            "ArgsEscaped": true,
-            "Image": "sha256:5d9a0aec3299531612a99627711b5f261078d5b99e2c6e857d4ac22e85f3c187",
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
             "Volumes": null,
-            "WorkingDir": "/home/weave",
-            "Entrypoint": [
-                "/home/weave/launch.sh"
-            ],
-            "OnBuild": [],
-            "Labels": {
-                "maintainer": "Weaveworks <help@weave.works>",
-                "org.label-schema.description": "Weave Net creates a virtual network that connects Docker containers across multiple hosts and enables their automatic discovery",
-                "org.label-schema.name": "Weave Net",
-                "org.label-schema.schema-version": "1.0",
-                "org.label-schema.url": "https://weave.works",
-                "org.label-schema.vcs-ref": "34de0b10a69c2fa11f2314bfe0e449f739a96cd8",
-                "org.label-schema.vcs-url": "https://github.com/weaveworks/weave",
-                "org.label-schema.vendor": "Weaveworks",
-                "org.opencontainers.image.description": "Weave Net creates a virtual network that connects Docker containers across multiple hosts and enables their automatic discovery",
-                "org.opencontainers.image.revision": "34de0b10a69c2fa11f2314bfe0e449f739a96cd8",
-                "org.opencontainers.image.source": "https://github.com/weaveworks/weave",
-                "org.opencontainers.image.title": "weave-kube",
-                "org.opencontainers.image.url": "https://weave.works",
-                "org.opencontainers.image.vendor": "Weaveworks",
-                "works.weave.role": "system"
-            }
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
         },
-        "DockerVersion": "17.09.0-ce",
+        "DockerVersion": "",
         "Author": "",
         "Config": {
             "Hostname": "",
@@ -72,25 +44,24 @@
                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
             ],
             "Cmd": null,
-            "ArgsEscaped": true,
-            "Image": "sha256:5d9a0aec3299531612a99627711b5f261078d5b99e2c6e857d4ac22e85f3c187",
+            "Image": "",
             "Volumes": null,
             "WorkingDir": "/home/weave",
             "Entrypoint": [
                 "/home/weave/launch.sh"
             ],
-            "OnBuild": [],
+            "OnBuild": null,
             "Labels": {
                 "maintainer": "Weaveworks <help@weave.works>",
                 "org.label-schema.description": "Weave Net creates a virtual network that connects Docker containers across multiple hosts and enables their automatic discovery",
                 "org.label-schema.name": "Weave Net",
                 "org.label-schema.schema-version": "1.0",
                 "org.label-schema.url": "https://weave.works",
-                "org.label-schema.vcs-ref": "34de0b10a69c2fa11f2314bfe0e449f739a96cd8",
+                "org.label-schema.vcs-ref": "25421fad74ac436eb0199e668b52f51ddef591ac",
                 "org.label-schema.vcs-url": "https://github.com/weaveworks/weave",
                 "org.label-schema.vendor": "Weaveworks",
                 "org.opencontainers.image.description": "Weave Net creates a virtual network that connects Docker containers across multiple hosts and enables their automatic discovery",
-                "org.opencontainers.image.revision": "34de0b10a69c2fa11f2314bfe0e449f739a96cd8",
+                "org.opencontainers.image.revision": "25421fad74ac436eb0199e668b52f51ddef591ac",
                 "org.opencontainers.image.source": "https://github.com/weaveworks/weave",
                 "org.opencontainers.image.title": "weave-kube",
                 "org.opencontainers.image.url": "https://weave.works",
@@ -100,26 +71,27 @@
         },
         "Architecture": "amd64",
         "Os": "linux",
-        "Size": 89041759,
-        "VirtualSize": 89041759,
+        "Size": 86606236,
+        "VirtualSize": 86606236,
         "GraphDriver": {
             "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/8a04f2cf2c6fcbad3e7d83d4b4df8b2a300131aba28db32a3476462fde52cced/diff:/var/lib/docker/overlay2/b67b9916a740772942ed896395a330abee47cda2960e1c40b2bc754f572af46a/diff:/var/lib/docker/overlay2/3ba2e91df817479606f6a96f889a25e3abe9580f58c724d040ede758ce195106/diff:/var/lib/docker/overlay2/aec13bce66fcc0517cad009af1c7f2f022dceb529c9d4ea3244df3b4b92c7b7b/diff:/var/lib/docker/overlay2/f105e2055b0a6e250dfe412f95b969036f933b20cde3241f2a57fa9e5a9b0349/diff",
-                "MergedDir": "/var/lib/docker/overlay2/775e0a0e84dde9a75c1e5b68a3c8aae8ff3965204aa83991d77438a53efc1e3d/merged",
-                "UpperDir": "/var/lib/docker/overlay2/775e0a0e84dde9a75c1e5b68a3c8aae8ff3965204aa83991d77438a53efc1e3d/diff",
-                "WorkDir": "/var/lib/docker/overlay2/775e0a0e84dde9a75c1e5b68a3c8aae8ff3965204aa83991d77438a53efc1e3d/work"
+                "LowerDir": "/var/lib/docker/overlay2/myuwikmu3lle8msx158mm05kr/diff:/var/lib/docker/overlay2/pz8yya4ad7kwx791n8zc1r5ls/diff:/var/lib/docker/overlay2/u9rpa2sbr8hy9a2anfptonqsx/diff:/var/lib/docker/overlay2/4kfkrk6oqjj3f5vyvmqzixc95/diff:/var/lib/docker/overlay2/u1vwnq4sm5ixe4jdtutt550qr/diff:/var/lib/docker/overlay2/ff4b8a468278a52a500f8d3deaf5399caa08ab824039dd78cf487bf9c131cff4/diff",
+                "MergedDir": "/var/lib/docker/overlay2/0uq5teljn2fjm2qdn9daia97s/merged",
+                "UpperDir": "/var/lib/docker/overlay2/0uq5teljn2fjm2qdn9daia97s/diff",
+                "WorkDir": "/var/lib/docker/overlay2/0uq5teljn2fjm2qdn9daia97s/work"
             },
             "Name": "overlay2"
         },
         "RootFS": {
             "Type": "layers",
             "Layers": [
-                "sha256:1b3ee35aacca9866b01dd96e870136266bde18006ac2f0d6eb706c798d1fa3c3",
-                "sha256:17d89e2a51994cdbf48860ebf5bd186de1db3fd48224939bca1ebb547b0345c9",
-                "sha256:148b94859892f3414d2737332d705f811321d702237e7ffcc0c81f73cef79619",
-                "sha256:dbea472c1ced668c1f268a7898e2d41a3b3294a84c4f11eb843b607e276f4134",
-                "sha256:e81f1a367c17044385bfd687177052bab70ba113cca6710062d434c5db4fde4e",
-                "sha256:351848f6b2957d7239b9d7d5e766d7599ca5ed6cc77ab98e6aa69abd2466f1c8"
+                "sha256:7cd52847ad775a5ddc4b58326cf884beee34544296402c6292ed76474c686d39",
+                "sha256:ff880be8ead9a407f1e5321d7ba39a97ff6d2c18b50a15481104a986a66ceee0",
+                "sha256:f7fee56a149bf02357f2a4681865a41a95970f3233f371f6e7196b17296556d9",
+                "sha256:f3459e25d8f543cfe2a336c06ad1ed6afad9935b43865d48cc80e553777c9aeb",
+                "sha256:e4a02f80ab5d7b5cc0bf641467fc640fdadd668175727b10c3354afc6aa94c88",
+                "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+                "sha256:ee53b1a081eebd42fb9da26a3221fa0b2a9f3e4911c749e7cb43de2cc2f0b49a"
             ]
         },
         "Metadata": {
