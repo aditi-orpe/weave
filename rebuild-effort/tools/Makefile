@@ -1,5 +1,5 @@
 DOCKERHUB_USER ?= rajchaudhuri
-IMAGE_VERSION ?= 2.8.3-beta
+IMAGE_VERSION ?= 2.8.3-beta2
 ALPINE_BASEIMAGE ?= alpine:3.17.2
 
 # Targets
@@ -19,7 +19,7 @@ clean:
 	make -C ../.. clean BUILD_IN_CONTAINER=false DOCKERHUB_USER=$(DOCKERHUB_USER) ALPINE_BASEIMAGE=$(ALPINE_BASEIMAGE)
 	DOCKERHUB_USER=$(DOCKERHUB_USER) IMAGE_VERSION=$(IMAGE_VERSION) ./rm-local-images.sh
 
-build.uptodate: build-local.sh ../../weave
+build.uptodate: build-local.sh ../../weave ../../go.mod ../../go.sum
 	DOCKERHUB_USER=$(DOCKERHUB_USER) ALPINE_BASEIMAGE=$(ALPINE_BASEIMAGE) ./build-local.sh
 	DOCKERHUB_USER=$(DOCKERHUB_USER) ./generate-state.sh
 	DOCKERHUB_USER=$(DOCKERHUB_USER) IMAGE_VERSION=$(IMAGE_VERSION) ./retag-images.sh
