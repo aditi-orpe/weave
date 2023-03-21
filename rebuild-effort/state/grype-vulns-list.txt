@@ -9,8 +9,6 @@ github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-385886567
 github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2020-27534       Medium    
 github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2021-21284       Medium    
 github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2021-21285       Medium    
-github.com/miekg/dns                  v1.0.4                                                      1.0.10                                   go-module  GHSA-9jcx-pr2f-qvq5  High      
-github.com/miekg/dns                  v1.0.4                                                      1.1.25                                   go-module  GHSA-44r7-7p62-q3fr  Medium    
 github.com/opencontainers/image-spec  v1.0.1                                                      1.0.2                                    go-module  GHSA-77vh-xpmg-72qh  Low       
 github.com/opencontainers/runc        v0.1.1                                                                                               go-module  GHSA-vpvm-3wq2-2wvm  High      
 github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc3                                go-module  GHSA-gp4j-w3vj-7299  Medium    
@@ -22,8 +20,5 @@ github.com/opencontainers/runc        v0.1.1                                    
 github.com/opencontainers/runc        v0.1.1                                                      1.1.2                                    go-module  GHSA-f3fp-gc8g-vw66  Medium    
 github.com/prometheus/client_golang   v1.7.1                                                                                               go-module  CVE-2022-21698       High      
 github.com/prometheus/client_golang   v1.7.1                                                      1.11.1                                   go-module  GHSA-cg3q-j54f-5p7p  High      
-golang.org/x/crypto                   v0.0.0-20200622213623-75b288015ac9                          0.0.0-20201216223049-8b5274cf687f        go-module  GHSA-3vm4-22fp-5rfm  High      
-golang.org/x/crypto                   v0.0.0-20200622213623-75b288015ac9                          0.0.0-20211202192323-5770296d904e        go-module  GHSA-gwc9-m7rh-j2ww  High      
-golang.org/x/crypto                   v0.0.0-20200622213623-75b288015ac9                          0.0.0-20220314234659-1baeb1ce4c0b        go-module  GHSA-8c26-wmh5-6g9v  High      
 golang.org/x/net                      v0.4.0                                                      0.7.0                                    go-module  GHSA-vvpx-j8f3-3w6h  High      
 k8s.io/client-go                      v0.18.6                                                     0.20.0-alpha.2                           go-module  GHSA-8cfg-vx93-jvxw  Medium    

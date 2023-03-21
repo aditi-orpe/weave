@@ -1,5 +1,5 @@
 DOCKERHUB_USER ?= rajchaudhuri
-IMAGE_VERSION ?= 2.8.3-beta2
+IMAGE_VERSION ?= 2.8.3-beta3
 ALPINE_BASEIMAGE ?= alpine:3.17.2
 
 # Targets

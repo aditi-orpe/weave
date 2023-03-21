@@ -44,7 +44,7 @@ github.com/j-keck/arping                          v0.0.0-20160618110441-2cf9dc69
 github.com/jmespath/go-jmespath                   v0.3.0                                                      go-module  
 github.com/json-iterator/go                       v1.1.10                                                     go-module  
 github.com/matttproud/golang_protobuf_extensions  v1.0.1                                                      go-module  
-github.com/miekg/dns                              v1.0.4                                                      go-module  
+github.com/miekg/dns                              v1.1.52                                                     go-module  
 github.com/modern-go/concurrent                   v0.0.0-20180306012644-bacd9c7ef1dd                          go-module  
 github.com/modern-go/reflect2                     v1.0.1                                                      go-module  
 github.com/opencontainers/go-digest               v1.0.0-rc1                                                  go-module  
@@ -64,11 +64,12 @@ github.com/weaveworks/common                      v0.0.0-20180321110636-ebab3a78
 github.com/weaveworks/go-checkpoint               v0.0.0-20170503165305-ebbb8b0518ab                          go-module  
 github.com/weaveworks/go-odp                      v0.0.0-20181017121109-6b0aa22550d9                          go-module  
 github.com/weaveworks/mesh                        v0.0.0-20191105120815-58dbcc3e8e63                          go-module  
-github.com/weaveworks/weave                       v0.0.0-20230319093925-f23928d19f48                          go-module  
-golang.org/x/crypto                               v0.0.0-20200622213623-75b288015ac9                          go-module  
+github.com/weaveworks/weave                       v0.0.0-20230320104324-99a7a4b31ea7                          go-module  
+golang.org/x/crypto                               v0.0.0-20220314234659-1baeb1ce4c0b                          go-module  
 golang.org/x/net                                  v0.4.0                                                      go-module  
 golang.org/x/oauth2                               v0.0.0-20190604053449-0f29369cfe45                          go-module  
 golang.org/x/sys                                  v0.4.0                                                      go-module  
+golang.org/x/term                                 v0.3.0                                                      go-module  
 golang.org/x/text                                 v0.5.0                                                      go-module  
 golang.org/x/time                                 v0.0.0-20190308202827-9d24e82272b4                          go-module  
 google.golang.org/protobuf                        v1.28.0                                                     go-module  
