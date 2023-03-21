@@ -18,7 +18,5 @@ github.com/opencontainers/runc        v0.1.1                                    
 github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc95                               go-module  GHSA-c3xm-pvg7-gh7r  High      
 github.com/opencontainers/runc        v0.1.1                                                      1.0.3                                    go-module  GHSA-v95c-p5hm-xq8f  Medium    
 github.com/opencontainers/runc        v0.1.1                                                      1.1.2                                    go-module  GHSA-f3fp-gc8g-vw66  Medium    
-github.com/prometheus/client_golang   v1.7.1                                                                                               go-module  CVE-2022-21698       High      
-github.com/prometheus/client_golang   v1.7.1                                                      1.11.1                                   go-module  GHSA-cg3q-j54f-5p7p  High      
 golang.org/x/net                      v0.4.0                                                      0.7.0                                    go-module  GHSA-vvpx-j8f3-3w6h  High      
 k8s.io/client-go                      v0.18.6                                                     0.20.0-alpha.2                           go-module  GHSA-8cfg-vx93-jvxw  Medium    

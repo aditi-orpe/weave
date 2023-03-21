@@ -11,12 +11,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// +build !go1.12
+//go:build js
+// +build js
 
 package prometheus
 
-// readBuildInfo is a wrapper around debug.ReadBuildInfo for Go versions before
-// 1.12. Remove this whole file once the minimum supported Go version is 1.12.
-func readBuildInfo() (path, version, sum string) {
-	return "unknown", "unknown", "unknown"
+func canCollectProcess() bool {
+	return false
+}
+
+func (c *processCollector) processCollect(ch chan<- Metric) {
+	// noop on this platform
+	return
 }

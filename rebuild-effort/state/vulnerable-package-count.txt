@@ -1,1 +1,1 @@
-Vulnerable packages: 22
+Vulnerable packages: 20

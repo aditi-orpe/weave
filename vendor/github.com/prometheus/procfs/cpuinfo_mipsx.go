@@ -11,9 +11,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build linux && (mips || mipsle || mips64 || mips64le)
 // +build linux
-// +build 386 amd64
+// +build mips mipsle mips64 mips64le
 
 package procfs
 
-var parseCPUInfo = parseCPUInfoX86
+var parseCPUInfo = parseCPUInfoMips

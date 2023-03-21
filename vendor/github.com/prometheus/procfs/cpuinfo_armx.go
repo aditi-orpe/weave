@@ -11,8 +11,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+//go:build linux && (arm || arm64)
 // +build linux
+// +build arm arm64
 
 package procfs
 
-var parseCPUInfo = parseCPUInfoMips
+var parseCPUInfo = parseCPUInfoARM
