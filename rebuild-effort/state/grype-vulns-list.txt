@@ -1,33 +1,25 @@
-NAME                                  INSTALLED                                                   FIXED-IN                                 TYPE       VULNERABILITY        SEVERITY 
-curl                                  7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27533       Unknown   
-curl                                  7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27534       Unknown   
-curl                                  7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27535       Unknown   
-curl                                  7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27536       Unknown   
-curl                                  7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27537       Unknown   
-curl                                  7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27538       Unknown   
-github.com/docker/distribution        v2.6.0-rc.1.0.20180327202408-83389a148052+incompatible      2.7.0-rc.0                               go-module  GHSA-h62f-wm92-2cmw  High      
-github.com/docker/distribution        v2.6.0-rc.1.0.20180327202408-83389a148052+incompatible      2.8.0                                    go-module  GHSA-qq97-vm5h-rrhg  Low       
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2018-10892       Medium    
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2019-13139       High      
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2019-13509       High      
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2019-16884       High      
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2019-5736        High      
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2020-27534       Medium    
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2021-21284       Medium    
-github.com/docker/docker              v17.12.0-ce-rc1.0.20180328155642-38588656727d+incompatible                                           go-module  CVE-2021-21285       Medium    
-github.com/opencontainers/image-spec  v1.0.1                                                      1.0.2                                    go-module  GHSA-77vh-xpmg-72qh  Low       
-github.com/opencontainers/runc        v0.1.1                                                                                               go-module  GHSA-vpvm-3wq2-2wvm  High      
-github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc3                                go-module  GHSA-gp4j-w3vj-7299  Medium    
-github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc8.0.20190930145003-cad42f6e0932  go-module  GHSA-fgv8-vj5c-2ppq  High      
-github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc9.0.20200122160610-2fc03cc11c77  go-module  GHSA-fh74-hm69-rqjw  Medium    
-github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc91                               go-module  GHSA-g54h-m393-cpwq  Low       
-github.com/opencontainers/runc        v0.1.1                                                      1.0.0-rc95                               go-module  GHSA-c3xm-pvg7-gh7r  High      
-github.com/opencontainers/runc        v0.1.1                                                      1.0.3                                    go-module  GHSA-v95c-p5hm-xq8f  Medium    
-github.com/opencontainers/runc        v0.1.1                                                      1.1.2                                    go-module  GHSA-f3fp-gc8g-vw66  Medium    
-golang.org/x/net                      v0.4.0                                                      0.7.0                                    go-module  GHSA-vvpx-j8f3-3w6h  High      
-libcurl                               7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27533       Unknown   
-libcurl                               7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27534       Unknown   
-libcurl                               7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27535       Unknown   
-libcurl                               7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27536       Unknown   
-libcurl                               7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27537       Unknown   
-libcurl                               7.88.1-r0                                                   7.88.1-r1                                apk        CVE-2023-27538       Unknown   
+NAME                                  INSTALLED  FIXED-IN   TYPE       VULNERABILITY        SEVERITY 
+curl                                  7.88.1-r0  7.88.1-r1  apk        CVE-2023-27533       Unknown   
+curl                                  7.88.1-r0  7.88.1-r1  apk        CVE-2023-27534       Unknown   
+curl                                  7.88.1-r0  7.88.1-r1  apk        CVE-2023-27535       Unknown   
+curl                                  7.88.1-r0  7.88.1-r1  apk        CVE-2023-27536       Unknown   
+curl                                  7.88.1-r0  7.88.1-r1  apk        CVE-2023-27537       Unknown   
+curl                                  7.88.1-r0  7.88.1-r1  apk        CVE-2023-27538       Unknown   
+github.com/containerd/containerd      v1.5.7     1.5.10     go-module  GHSA-crp2-qrr5-8pq7  High      
+github.com/containerd/containerd      v1.5.7     1.5.13     go-module  GHSA-5ffw-gxpp-mxpf  Medium    
+github.com/containerd/containerd      v1.5.7     1.5.16     go-module  GHSA-2qjp-425j-52j9  Medium    
+github.com/containerd/containerd      v1.5.7     1.5.18     go-module  GHSA-259w-8hf6-59c2  Medium    
+github.com/containerd/containerd      v1.5.7     1.5.18     go-module  GHSA-hmfx-3pcx-653p  Medium    
+github.com/containerd/containerd      v1.5.7     1.5.8      go-module  GHSA-5j5w-g665-5m35  Low       
+github.com/containerd/containerd      v1.5.7     1.5.9      go-module  GHSA-mvff-h3cj-wj9c  High      
+github.com/opencontainers/image-spec  v1.0.1     1.0.2      go-module  GHSA-77vh-xpmg-72qh  Low       
+github.com/opencontainers/runc        v1.0.2                go-module  GHSA-vpvm-3wq2-2wvm  High      
+github.com/opencontainers/runc        v1.0.2     1.0.3      go-module  GHSA-v95c-p5hm-xq8f  Medium    
+github.com/opencontainers/runc        v1.0.2     1.1.2      go-module  GHSA-f3fp-gc8g-vw66  Medium    
+golang.org/x/net                      v0.4.0     0.7.0      go-module  GHSA-vvpx-j8f3-3w6h  High      
+libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27533       Unknown   
+libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27534       Unknown   
+libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27535       Unknown   
+libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27536       Unknown   
+libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27537       Unknown   
+libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27538       Unknown   
