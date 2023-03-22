@@ -16,7 +16,6 @@ github.com/opencontainers/image-spec  v1.0.1     1.0.2      go-module  GHSA-77vh
 github.com/opencontainers/runc        v1.0.2                go-module  GHSA-vpvm-3wq2-2wvm  High      
 github.com/opencontainers/runc        v1.0.2     1.0.3      go-module  GHSA-v95c-p5hm-xq8f  Medium    
 github.com/opencontainers/runc        v1.0.2     1.1.2      go-module  GHSA-f3fp-gc8g-vw66  Medium    
-golang.org/x/net                      v0.4.0     0.7.0      go-module  GHSA-vvpx-j8f3-3w6h  High      
 libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27533       Unknown   
 libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27534       Unknown   
 libcurl                               7.88.1-r0  7.88.1-r1  apk        CVE-2023-27535       Unknown   
