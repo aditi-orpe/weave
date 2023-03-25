@@ -1,4 +1,4 @@
-FROM golang:1.15.6-buster
+FROM golang:1.20.2-buster
 
 # Support Raspberry Pi 2 and newer
 ENV GOARM 7
@@ -36,7 +36,9 @@ RUN for platform in ${DEB_CROSSPLATFORMS}; do dpkg --add-architecture $platform;
 # flex and bison are required packages for compiling libpcap manually later
 RUN apt-get update \
 	&& apt-get install -y \
-		libpcap-dev \
+		libpcap-dev=1.8.1-6+deb10u1 \
+        libpcap0.8-dev=1.8.1-6+deb10u1 \
+        libpcap0.8=1.8.1-6+deb10u1 \
 		python-requests \
 		time \
 		file \
@@ -49,20 +51,21 @@ RUN curl -fsSLo shfmt https://github.com/mvdan/sh/releases/download/v1.3.0/shfmt
 	mv shfmt /usr/bin
 
 # Install common Go tools
-RUN go get \
-    github.com/weaveworks/build-tools/cover \
-    github.com/mattn/goveralls \
-	golang.org/x/lint/golint \
-	github.com/fzipp/gocyclo \
-	github.com/fatih/hclfmt \
-	github.com/client9/misspell/cmd/misspell
+# RUN go get \
+#     github.com/weaveworks/build-tools/cover \
+#     github.com/mattn/goveralls \
+# 	golang.org/x/lint/golint \
+# 	github.com/fzipp/gocyclo \
+# 	github.com/fatih/hclfmt \
+# 	github.com/client9/misspell/cmd/misspell
 
 # Allow full write access to the Go folders for anyone
 RUN chmod -R a+w /usr/local/go
 
-# The libpcap version from Debian packages is 1.6.2, matching that version here although newer versions of libpcap have been released
+# The libpcap version from Debian packages is 1.8.1, matching that version here although newer versions of libpcap have been released
+# Later versions do not allow static linking
 # We have to cross-compile the libpcap library for the new architectures, that's what we're doing here
-ENV LIBPCAP_CROSS_VERSION=1.6.2
+ENV LIBPCAP_CROSS_VERSION=1.8.1
 RUN curl -sSL https://www.tcpdump.org/release/libpcap-${LIBPCAP_CROSS_VERSION}.tar.gz | tar -xz \
 	&& cd libpcap-${LIBPCAP_CROSS_VERSION} \
 	&& for crosscompiler in ${GCC_CROSSCOMPILERS}; do \
@@ -76,7 +79,7 @@ RUN curl -sSL https://www.tcpdump.org/release/libpcap-${LIBPCAP_CROSS_VERSION}.t
 		&& make clean; done
 
 # Install Docker
-RUN curl -fsSL https://get.docker.com | VERSION=18.06.0-ce /bin/sh
+RUN curl -fsSL https://get.docker.com | VERSION=23.0.1 /bin/sh
 
 COPY build.sh /
 ENTRYPOINT ["sh", "/build.sh"]
