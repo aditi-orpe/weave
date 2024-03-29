@@ -159,7 +159,7 @@ items:
                 httpGet:
                   host: 127.0.0.1
                   path: /status
-                  port: 6784
+                  port: 6443
               resources:
                 requests:
                   cpu: 50m
